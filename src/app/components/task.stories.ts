@@ -33,6 +33,7 @@ Default.args = {
   },
 };
 
+//here we are once again creating another story, copying/spreading the existing args and then changing the state in the args to TASK_PINNED
 export const Pinned = Template.bind({});
 Pinned.args = {
   task: {
